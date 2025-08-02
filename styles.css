@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+      display: flex;
+      align-items: center;
+      max-width: 800px;
+      margin-top: 100px;
+      margin-left: 250px;
+      padding: 20px;
+      gap: 20px;
+    }
+
+.container img {
+      width: 200px; /* Ukuran gambar */
+      height: auto;
+      object-fit: cover;
+      border-radius: 100px;
+      margin-top: 50px;
+    }
+
+p {
+  margin-left: 660px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.text {
+      flex: 1; /* Teks akan menempati sisa ruang */
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+.text h1 {
+      margin-bottom: 5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.text h2 {
+      margin-top: 5px;
+      font-size: 17px;
+    }
+
+.social-icons {
+  margin-left: 550px;
+    }
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: grey;
+}
+
+button {
+  border-radius: 4px;
+  padding: 5px 12px;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 0 0;
+  transform: translate(3px 3px);
+  transition: all 200ms ease;
+  cursor: pointer;
+  background-color: lightgrey;
+  color: black;
+}
+
+.button-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+
